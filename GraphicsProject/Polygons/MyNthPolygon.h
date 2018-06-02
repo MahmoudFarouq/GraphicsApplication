@@ -53,7 +53,7 @@ public:
     void fill(HDC& hdc)
     {
         if(filled) {
-            cout << "a7a" << endl;
+            cout << "Already Filled" << endl;
             return;
         }
         filled = true;
